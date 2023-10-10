@@ -20,7 +20,7 @@ By default, Cypress will open its interactive test runner. You can select specif
 
 # Folder Structure- 
 
-- Pytest/
+- Cypress/
   - fixtures
   - integration/
     - phone-in-call-spec.js
