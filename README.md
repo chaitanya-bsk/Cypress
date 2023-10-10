@@ -19,13 +19,29 @@ By default, Cypress will open its interactive test runner. You can select specif
 
 
 # Folder Structure- 
-cypress/ 
-├── fixtures/ # Test data 
-├── integration/ # Test scripts 
-├── plugins/ # Cypress plugins 
-├── support/ # Custom commands and helpers 
-cypress.json # Cypress configuration
 
+- Pytest/
+  - fixtures
+  - integration/
+    - phone-in-call-spec.js
+    - phone-ringing-spec.js
+  - page-objects/
+    - call-ended-page.js
+    - incall-page.js
+    - keyboard-page.js
+    - login-page.js
+    - onboarding-page.js
+  - plugins
+  - reports
+  - screenshots
+  - supoort
+  - assertionhelpers/
+    - call-ended-page-validator.js
+    - incall-page-validator.js
+    - keyboard-pag-validatore.js
+    - login-page-validator.js
+    - onboarding-page-validator.js
+  - cypress.config.js
 
 # Report generation 
 We use Mochawesome for generating test reports. To generate an HTML report after running tests, use:
