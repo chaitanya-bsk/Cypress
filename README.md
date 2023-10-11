@@ -4,7 +4,7 @@ Prerequisites
 Install node - v20.8.0
 Install cypress - Cypress package version: 13.3.0
 
-# Getting Started 
+# Getting Started
 Clone this repository to your local machine:
 
 # .ENV FILE 
