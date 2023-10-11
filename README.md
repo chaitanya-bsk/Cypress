@@ -4,7 +4,8 @@ Prerequisites
 Install node - v20.8.0
 Install cypress - Cypress package version: 13.3.0
 
-# Getting Started 1. Clone this repository to your local machine:
+# Getting Started 
+Clone this repository to your local machine:
 
 # .ENV FILE 
 In current cypress project, I have taken user_name and password as test data. If we still feel it as sensitive data that doesn’t need to be exposed we can move into cypress.env()
